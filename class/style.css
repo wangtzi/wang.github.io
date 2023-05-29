@@ -1,0 +1,74 @@
+@charset "UTF-8";
+body{
+	background-color: #fce5cd;
+	background-image: url(read.jpg);
+	background-size: 70px 70px;
+	background-repeat: no-repeat;
+  	background-position: top left;
+  	background-attachment: fixed;
+}
+footer{
+	background-color: saddlebrown;
+	margin: 20px 0px 0px -10px;
+	padding: 10px;
+}
+
+a{
+	color: #16537e;
+	text-decoration: none;
+}
+
+input[type="text"], input[type="password"]{
+	padding: 13px;
+	font-size: 16px;
+	text-align: left;
+	border-width: 6px;
+	border-radius: 23px;
+	border-style: outset;
+	border: 2px solid #4a5860;
+	border-color: #cccccc;
+	
+	/*position: absolute;*/
+}
+
+table{
+margin-left:auto; 
+margin-right:auto;
+text-align: center;
+}
+
+th{
+	font-size: 20px;
+}
+td{
+	font-size: 20px;
+}
+#search p {
+	display:inline;
+	font-size: 20px;
+}
+#login p {
+	display:inline;
+	font-size: 20px;
+}
+#search{
+	
+	
+	padding-left: 35px;
+}
+
+input[type="submit"]{
+
+	padding:5px 15px; 
+	background:#ccc; 
+	border:0 ;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor:pointer;
+}
+
+p{
+	font-size: 20px;
+	padding-left: 35%;
+	padding-top: 1%;
+}
